@@ -1,30 +1,31 @@
 
-### PROBLEM STATEMENT:
+### PROBLEM STATEMENT
 
 Netflix provided a lot of anonymous rating data, and a prediction accuracy bar that is 10% better than what Cinematch can do on the same training data set. (Accuracy is a measurement of how closely predicted ratings of movies match subsequent actual ratings.)
 
-### ALGORITHMS:
+### ALGORITHMS
 
 XGBoost, Matrix Factorization, Support Vector, KNN Base Line Models.
 
-### OBJECTIVES:
+### OBJECTIVES
 
-Predict the rating that a user would give to a movie that he ahs not yet rated.
-Minimize the difference between predicted and actual rating (RMSE and MAPE)
+- Predict the rating that a user would give to a movie that he ahs not yet rated.
 
-### DATA FORMAT:
+- Minimize the difference between predicted and actual rating (RMSE and MAPE).
+
+### DATA FORMAT
 
 - Each line in the file corresponds to a rating from a customer and its date in the following format:
 
-CustomerID,Rating,Date
+  CustomerID,Rating,Date
 
 - MovieIDs range from 1 to 17770 sequentially. CustomerIDs range from 1 to 2649429, with gaps. There are 480189 users. Ratings are on a five star (integral) scale from 1 to 5. Dates have the format YYYY-MM-DD.
 
-### TYPE OF MACHINE LEARNING PROBLEM:
+### TYPE OF MACHINE LEARNING PROBLEM
 
 For a given movie and user we need to predict the rating would be given by him/her to the movie. The given problem is a Recommendation problem It can also be converted as a Regression problem.
 
-### PERFORMANCE METRIC:
+### PERFORMANCE METRIC
 
 - Mean Absolute Percentage Error
 
@@ -36,7 +37,7 @@ For a given movie and user we need to predict the rating would be given by him/h
 
 - Try to provide some interpretability.
 
-### Exploratory Data Analysis
+### EXPLORATORY DATA ANALYSIS
 
 ##### Preprocessing
 
@@ -166,7 +167,7 @@ RMSE : 1.088749005744821
 
 MAPE : 35.188974153659295
 
-## `REGRESSION MODEL`:
+## `REGRESSION MODEL`
 
 ### Matrix Factorization Techniques
 
