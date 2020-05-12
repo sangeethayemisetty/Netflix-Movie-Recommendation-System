@@ -197,14 +197,4 @@ MAPE : 35.54329712868095
 
 ## Comparision between all models
 
-
-| MODEL           | RMSE                |
-|-----------------|---------------------|
-| svd             | 1.0860031195730506  |
-| svdpp           | 1.0862780572420558  |
-| bsl_algo        | 1.0868914468761874  |
-| knn_bsl_u       | 1.0865005562678032  |
-| knn_bsl_m       | 1.0868914468761874  |
-| xgb_bsl         | 1.0891599523508655  |
-| first_algo      | 1.0890322448240302  |
-| xgb_all_models  | 1.095123189648495   |
+![Model Performence](assets/Scores.PNG)
