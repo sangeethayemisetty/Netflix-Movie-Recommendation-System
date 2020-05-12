@@ -60,7 +60,7 @@ For a given movie and user we need to predict the rating would be given by him/h
 
 - Sampling Data
 - Build sample train data from the train data
-- Build sample test data from the test data4.2 Finding Global Average of all movie ratings, Average rating per User, and Average rating per Movie (from sampled train)
+- Build sample test data from the test data
 - Finding Global Average of all movie ratings, Average rating per User, and Average rating per Movie (from sampled train)
 - Featurizing data
 - Featurizing data for regression problem
