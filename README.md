@@ -26,11 +26,13 @@ For a given movie and user we need to predict the rating would be given by him/h
 ### Performance metric
 
 1.Mean Absolute Percentage Error
+
 2.Root Mean Square Error
 
 ## Machine Learning Objective and Constraints
 
 1.Minimize RMSE.
+
 2.Try to provide some interpretability.
 
 ## Exploratory Data Analysis
@@ -99,18 +101,18 @@ rating : Rating of this movie by this user.
 ## Transforming data for Surprise models
 ### Transforming train data
 
-We can't give raw data (movie, user, rating) to train the model in Surprise library.
+- We can't give raw data (movie, user, rating) to train the model in Surprise library.
 
-They have a saperate format for TRAIN and TEST data, which will be useful for training the models like SVD, KNNBaseLineOnly....etc..,in Surprise.
+- They have a saperate format for TRAIN and TEST data, which will be useful for training the models like SVD, KNNBaseLineOnly....etc..,in Surprise.
 
-Form the trainset from a file, or from a Pandas DataFrame.
+- Form the trainset from a file, or from a Pandas DataFrame.
 ### Transforming test data
 
-Testset is just a list of (user, movie, rating) tuples. (Order in the tuple is impotant)
+- Testset is just a list of (user, movie, rating) tuples. (Order in the tuple is impotant)
 
 ## Applying Machine Learning models
 
-Global dictionary that stores rmse and mape for all the models....
+- Global dictionary that stores rmse and mape for all the models....
 
     It stores the metrics in a dictionary of dictionaries
 
