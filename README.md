@@ -90,7 +90,7 @@ For a given movie and user we need to predict the rating would be given by him/h
 - Recommendation Model
 - Regression Model
 
-## `RECOMMENDATION MODEL`
+# `RECOMMENDATION MODEL`
 
 ### Transforming data for Surprise models:
 
@@ -167,7 +167,7 @@ RMSE : 1.088749005744821
 
 MAPE : 35.188974153659295
 
-## `REGRESSION MODEL`
+# `REGRESSION MODEL`
 
 ### Matrix Factorization Techniques
 
