@@ -195,6 +195,4 @@ RMSE : 1.095123189648495
 
 MAPE : 35.54329712868095
 
-## Comparision between all models
-
 ![Model Performence](assets/Scores.PNG)
